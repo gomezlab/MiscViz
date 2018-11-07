@@ -1,0 +1,30 @@
+{
+  "name": "gomezlabviz",
+  "version": "1.0.0",
+  "description": "Visualizations for the Gomez Lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server dist/",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isrobson/GomezLabViz.git"
+  },
+  "author": "Isaac S. Robson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isrobson/GomezLabViz/issues"
+  },
+  "homepage": "https://github.com/isrobson/GomezLabViz#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "imports-loader": "^0.8.0",
+    "jquery": "^3.3.1",
+    "npm-watch": "^0.4.0",
+    "sigma": "^1.2.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
