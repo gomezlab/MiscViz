@@ -44,8 +44,7 @@ d3.json("viz.json", function(error, data) {
 
   node.append("a")
       .attr("xlink:href", function(d){
-        console.log("https://www.genecards.org/cgi-bin/carddisp.pl?gene="+d.data.className.substring(0, d.r / 3));
-        return "https://www.genecards.org/cgi-bin/carddisp.pl?gene="+d.data.className.substring(0, d.r / 3);
+        return "http://darkkinome.org/kinase/"+d.data.className.substring(0, d.r / 3);
       })
       .append("svg:circle")
       .attr("r", function(d) { return d.r; })
