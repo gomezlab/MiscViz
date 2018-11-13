@@ -40,23 +40,6 @@ d3.json("viz.json", function(error, data) {
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
-  // Create Event Handlers for mouse
-  function handleMouseOver(d) {  // Add interactivity
-        // Use D3 to select element, change color and size
-        console.log("on");
-        d3.select(this).attr({
-          r: d.r * 1.2
-        });
-      }
-
-  function handleMouseOut(d) {
-        // Use D3 to select element, change color back to normal
-        console.log("off");
-        d3.select(this).attr({
-          r: d.r / 1.2
-        });
-      }
-
   node.append("title")
       .text(function(d) { return d.data.className + ": " + format(d.value); });
 
@@ -70,22 +53,32 @@ d3.json("viz.json", function(error, data) {
         return color[d.data.packageName];
       })
       .style("stroke", "#000")
-      .style("stroke-width", .2)
-      .on("mouseover", function(d,i) {
-        d3.select(this)
-          .style("transform", "scale(1.2,1.2)")
-          .style("stroke-width", 2);
-      }).on("mouseout", function(d,i) {
-        d3.select(this)
-          .style("transform", "scale(1.0,1.0)")
-          .style("stroke-width", .2);
+      .style("stroke-width", .2);
+
+  d3.selection.prototype.moveToFront = function() {
+      return this.each(function(){
+        this.parentNode.appendChild(this);
       });
+    };
 
   node.append("text")
       .attr("dy", ".3em")
       .style("text-anchor", "middle")
       .text(function(d) { return d.data.className.substring(0, d.r / 3); });
-    });
+
+  node.on("mouseover", function (d) {
+        d3.select(this).select("text")
+            .style("font-size", "15px");
+        d3.select(this).select("a")
+            .attr("transform", "scale(1.2,1.2)");
+        d3.select(this).moveToFront() });
+
+  node.on("mouseout", function (d) {
+        d3.select(this).select("text")
+            .style("font-size", "10px");
+        d3.select(this).select("a")
+            .attr("transform", "scale(1.0,1.0)"); });
+});
 
 // Returns a flattened hierarchy containing all leaf nodes under the root.
 function classes(root) {
