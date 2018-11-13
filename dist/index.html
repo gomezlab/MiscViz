@@ -12,9 +12,12 @@ text {
 <script src="https://d3js.org/d3.v4.js"></script>
 <script>
 
-var diameter = 960,
+var diameter = 840,
     format = d3.format(",d"),
-    color = d3.scaleOrdinal(d3.schemeCategory20c);
+    color = {"Tdark":"#3792EC", "Tbio":"#389732", "Tchem":"#F0F37F"}; // create a duct if cikirubg
+    //d3.scaleOrdinal(d3.schemeCategory20c) // original coloring
+
+console.log(color[0])
 
 var bubble = d3.pack()
     .size([diameter, diameter])
@@ -49,7 +52,8 @@ d3.json("viz.json", function(error, data) {
       .append("svg:circle")
       .attr("r", function(d) { return d.r; })
       .style("fill", function(d) {
-        return color(d.data.packageName);
+        console.log(d.data.packageName);
+        return color[d.data.packageName];
       });
 
   node.append("text")

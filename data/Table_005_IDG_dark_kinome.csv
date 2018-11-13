@@ -1,0 +1,163 @@
+"gene_id","gene_symbol","name_nih","name","atp_binder","pharos_designation","pubmed_citation_2017","comment","tier","justification"
+57143,"ADCK1",NA,"aarF domain containing kinase 1",NA,"Tdark",14,NA,NA,"Kinome subnetwork integration undefined. "
+90956,"ADCK2","ADCK2","aarF domain containing kinase 2","Y","Tbio",NA,NA,3,NA
+203054,"ADCK5","ADCK5","aarF domain containing kinase 5","Y","Tdark",NA,NA,3,NA
+115701,"ALPK2","ALPK2","alpha kinase 2","?","Tdark",NA,NA,3,NA
+57538,"ALPK3","ALPK3","alpha kinase 3","?","Tdark",NA,NA,3,NA
+10295,"BCKDK","BCKDK","branched chain ketoacid dehydrogenase kinase","Y","Tbio",NA,NA,3,NA
+84446,"BRSK1",NA,"BR serine/threonine kinase 1",NA,"Tchem",20,NA,NA,"Kinome subnetwork integration undefined. No chemical probe only promiscuous inhibitors"
+9024,"BRSK2",NA,"BR serine/threonine kinase 2",NA,"Tchem",29,NA,NA,"Kinome subnetwork integration undefined. No chemical probes only promiscuous inhibitors"
+57118,"CAMK1D","CAMK1D","calcium/calmodulin dependent protein kinase ID","Y","Tchem",NA,NA,2,NA
+57172,"CAMK1G","CAMK1G","calcium/calmodulin dependent protein kinase IG","Y","Tchem",NA,NA,2,NA
+84254,"CAMKK1","CAMKK1","calcium/calmodulin dependent protein kinase kinase 1","Y","Tchem",NA,NA,1,NA
+10645,"CAMKK2",NA,"calcium/calmodulin dependent protein kinase kinase 2",NA,"Tchem",57,NA,NA,"Family member of CAMKK1. No chemical probe only promiscuous inhibitors"
+79012,"CAMKV","CAMKV","CaM kinase like vesicle associated","N","Tbio",NA,"Pseudokinase ",3,NA
+8476,"CDC42BPA",NA,"CDC42 binding protein kinase alpha",NA,"Tchem",41,NA,NA,"Completes CDC42 family. No chemical probe only promiscuous inhibitors"
+9578,"CDC42BPB","CDC42BPB","CDC42 binding protein kinase beta","Y","Tbio",NA,NA,1,NA
+55561,"CDC42BPG","CDC42BPG","CDC42 binding protein kinase gamma","Y","Tbio",NA,NA,1,NA
+8558,"CDK10","CDK10","cyclin dependent kinase 10","Y","Tbio",NA,NA,1,NA
+728642,"CDK11A",NA,"cyclin dependent kinase 11A",NA,"Tchem",59,NA,NA,"Six CDKs on original IDG list. Added for completeness; No chemical probe only pan-family inhibitors"
+984,"CDK11B","CDK11B","cyclin dependent kinase 11B","Y","Tchem",NA,NA,1,NA
+51755,"CDK12",NA,"cyclin dependent kinase 12",NA,"Tbio",49,NA,NA,"Six CDKs on original IDG list. Added for completeness; No chemical probe only pan-family inhibitors"
+8621,"CDK13",NA,"cyclin dependent kinase 13",NA,"Tchem",44,NA,NA,"Six CDKs on original IDG list. Added for completeness; No chemical probe only pan-family inhibitors"
+5218,"CDK14","CDK14","cyclin dependent kinase 14","Y","Tchem",NA,NA,1,NA
+65061,"CDK15","CDK15","cyclin dependent kinase 15","Y","Tchem",NA,NA,1,NA
+5127,"CDK16",NA,"cyclin dependent kinase 16",NA,"Tchem",56,NA,NA,"Six CDKs on original IDG list. Added for completeness; No chemical probe only pan-family inhibitors"
+5128,"CDK17","CDK17","cyclin dependent kinase 17","Y","Tchem",NA,NA,1,NA
+5129,"CDK18","CDK18","cyclin dependent kinase 18","Y","Tchem",NA,NA,1,NA
+23097,"CDK19",NA,"cyclin dependent kinase 19",NA,"Tchem",27,NA,NA,"Six CDKs on original IDG list. Added for completeness; No chemical probe only pan-family inhibitors"
+23552,"CDK20",NA,"cyclin dependent kinase 20",NA,"Tbio",24,NA,NA,"Six CDKs on original IDG list. Added for completeness; No chemical probe only pan-family inhibitors"
+8814,"CDKL1","CDKL1","cyclin dependent kinase like 1","Y","Tchem",NA,NA,2,NA
+8999,"CDKL2","CDKL2","cyclin dependent kinase like 2","Y","Tchem",NA,NA,1,NA
+51265,"CDKL3","CDKL3","cyclin dependent kinase like 3","Y","Tchem",NA,NA,2,NA
+344387,"CDKL4","CDKL4","cyclin dependent kinase like 4","Y","Tdark",NA,NA,3,NA
+6792,"CDKL5",NA,"cyclin dependent kinase like 5",NA,"Tchem",80,NA,NA,"Last CDKL family member (added to complete family; four of five on original IDG list)"
+1198,"CLK3","CLK3","CDC like kinase 3","Y","Tchem",NA,NA,1,NA
+57396,"CLK4","CLK4","CDC like kinase 4","Y","Tchem",NA,NA,1,NA
+56997,"COQ8A","ADCK3","coenzyme Q8A",NA,"Tbio",30,NA,NA,"Kinome subnetwork integration undefined. "
+79934,"COQ8B","ADCK4","coenzyme Q8B","Y","Tchem",NA,NA,2,NA
+122011,"CSNK1A1L",NA,"casein kinase 1 alpha 1 like",NA,"Tdark",13,NA,NA,"Kinome subnetwork integration undefined. "
+53944,"CSNK1G1","CSNK1G1","casein kinase 1 gamma 1","Y","Tbio",NA,NA,1,NA
+1455,"CSNK1G2","CSNK1G2","casein kinase 1 gamma 2","Y","Tchem",NA,NA,1,NA
+1456,"CSNK1G3","CSNK1G3","casein kinase 1 gamma 3","Y","Tbio",NA,NA,1,NA
+1459,"CSNK2A2","CSNK2A2","casein kinase 2 alpha 2","Y","Tchem",NA,NA,1,NA
+283106,"CSNK2A3",NA,"casein kinase 2 alpha 3",NA,"Tdark",19,NA,NA,"Kinome subnetwork integration undefined."
+85443,"DCLK3",NA,"doublecortin like kinase 3",NA,"Tchem",10,NA,NA,"Kinome subnetwork integration undefined. No chemical probe only promiscuous inhibitors"
+25778,"DSTYK",NA,"dual serine/threonine and tyrosine protein kinase",NA,"Tchem",18,NA,NA,"Kinome subnetwork integration undefined. No chemical probe only promiscuous inhibitors"
+9149,"DYRK1B","DYRK1B","dual specificity tyrosine phosphorylation regulated kinase 1B","Y","Tchem",NA,NA,1,NA
+8445,"DYRK2","DYRK2","dual specificity tyrosine phosphorylation regulated kinase 2","Y","Tchem",NA,NA,1,NA
+8444,"DYRK3","DYRK3","dual specificity tyrosine phosphorylation regulated kinase 3","Y","Tchem",NA,NA,1,NA
+8798,"DYRK4","DYRK4","dual specificity tyrosine phosphorylation regulated kinase 4","Y","Tdark",NA,NA,2,NA
+29904,"EEF2K","EEF2K","eukaryotic elongation factor 2 kinase","Y","Tbio",NA,NA,1,NA
+10595,"ERN2","ERN2","endoplasmic reticulum to nucleus signaling 2","Y","Tbio",NA,NA,2,NA
+204851,"HIPK1",NA,"homeodomain interacting protein kinase 1",NA,"Tbio",31,NA,NA,"Added to complete HIPK family"
+10114,"HIPK3",NA,"homeodomain interacting protein kinase 3",NA,"Tchem",24,NA,NA,"Added to complete HIPK family; No chemical probe only promiscuous inhibitors"
+147746,"HIPK4","HIPK4","homeodomain interacting protein kinase 4","Y","Tchem",NA,NA,1,NA
+22858,"ICK",NA,"intestinal cell kinase",NA,"Tchem",32,NA,NA,"Kinome subnetwork integration undefined; No chemical probe only promiscuous inhibitors "
+22853,"LMTK2",NA,"lemur tyrosine kinase 2",NA,"Tbio",44,NA,NA,"Kinome subnetwork integration undefined. "
+114783,"LMTK3","LMTK3","lemur tyrosine kinase 3","Y","Tbio",NA,NA,3,NA
+79705,"LRRK1","LRRK1","leucine rich repeat kinase 1","Y","Tbio",NA,NA,3,NA
+4058,"LTK","LTK","leukocyte receptor tyrosine kinase","Y","Tchem",NA,NA,1,NA
+4294,"MAP3K10","MAP3K10","mitogen-activated protein kinase kinase kinase 10","Y","Tchem",NA,NA,2,NA
+9020,"MAP3K14","MAP3K14","mitogen-activated protein kinase kinase kinase 14","Y","Tchem",NA,NA,2,NA
+389840,"MAP3K15",NA,"mitogen-activated protein kinase kinase kinase 15",NA,"Tchem",11,NA,NA,"Kinome subnetwork integration undefined; No chemical probe only promiscuous inhibitors"
+84451,"MAP3K21",NA,"mitogen-activated protein kinase kinase kinase 21",NA,"Tdark",16,NA,NA,"Kinome subnetwork integration undefined. "
+225689,"MAPK15","MAPK15","mitogen-activated protein kinase 15","Y","Tchem",NA,NA,1,NA
+5596,"MAPK4","MAPK4","mitogen-activated protein kinase 4","Y","Tbio",NA,NA,2,NA
+4139,"MARK1",NA,"microtubule affinity regulating kinase 1",NA,"Tchem",46,NA,NA,"Added to complete MARK family; No chemical probe only promiscuous inhibitors"
+4140,"MARK3",NA,"microtubule affinity regulating kinase 3",NA,"Tchem",64,NA,NA,"Added to complete MARK family; No chemical probe only promiscuous inhibitors"
+57787,"MARK4","MARK4","microtubule affinity regulating kinase 4","Y","Tchem",NA,NA,2,NA
+23139,"MAST2","MAST2","microtubule associated serine/threonine kinase 2","Y","Tchem",NA,NA,3,NA
+23031,"MAST3","MAST3","microtubule associated serine/threonine kinase 3","Y","Tbio",NA,NA,3,NA
+375449,"MAST4","MAST4","microtubule associated serine/threonine kinase family member 4","Y","Tbio",NA,NA,3,NA
+8569,"MKNK1",NA,"MAP kinase interacting serine/threonine kinase 1",NA,"Tchem",72,NA,NA,"Added to complete MKNK family; No chemical probe only promiscuous inhibitors"
+2872,"MKNK2","MKNK2","MAP kinase interacting serine/threonine kinase 2","Y","Tchem",NA,NA,1,NA
+4750,"NEK1",NA,"NIMA related kinase 1",NA,"Tchem",44,NA,NA,"Six NEKs on original IDG list. Added for completeness; No chemical probe only promiscuous inhibitors"
+152110,"NEK10","NEK10","NIMA related kinase 10","Y","Tchem",NA,NA,2,NA
+79858,"NEK11","NEK11","NIMA related kinase 11","Y","Tbio",NA,NA,2,NA
+4752,"NEK3",NA,"NIMA related kinase 3",NA,"Tbio",19,NA,NA,"Six NEKs on original IDG list. Added for completeness"
+6787,"NEK4","NEK4","NIMA related kinase 4","Y","Tbio",NA,NA,2,NA
+341676,"NEK5","NEK5","NIMA related kinase 5","Y","Tchem",NA,NA,1,NA
+10783,"NEK6","NEK6","NIMA related kinase 6","Y","Tchem",NA,NA,1,NA
+140609,"NEK7","NEK7","NIMA related kinase 7","Y","Tchem",NA,NA,1,NA
+284086,"NEK8",NA,"NIMA related kinase 8",NA,"Tbio",28,NA,NA,"Six NEKs on original IDG list. Added for completeness"
+91754,"NEK9",NA,"NIMA related kinase 9",NA,"Tchem",48,NA,NA,"Six NEKs on original IDG list. Added for completeness; No chemical probe only promiscuous inhibitors"
+167359,"NIM1K","NIM1K","NIM1 serine/threonine protein kinase","Y","Tbio",NA,NA,2,NA
+340371,"NRBP2","NRBP2","nuclear receptor binding protein 2","N","Tdark",NA,"Pseudokinase ",3,NA
+203447,"NRK","NRK","Nik related kinase","Y","Tdark",NA,NA,3,NA
+81788,"NUAK2",NA,"NUAK family kinase 2",NA,"Tchem",34,NA,NA,"Kinome subnetwork integration undefined. No chemical probe only promiscuous inhibitors"
+84033,"OBSCN",NA,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",NA,"Tbio",45,NA,NA,"Kinome subnetwork integration undefined. "
+5063,"PAK3","PAK3","p21 (RAC1) activated kinase 3","Y","Tchem",NA,NA,1,NA
+57144,"PAK5","PAK7","p21 (RAC1) activated kinase 5","Y","Tchem",NA,NA,1,NA
+56924,"PAK6","PAK6","p21 (RAC1) activated kinase 6","Y","Tchem",NA,NA,1,NA
+255967,"PAN3",NA,"poly(A) specific ribonuclease subunit PAN3",NA,"Tdark",25,"Pseudokinase",NA,"Kinome subnetwork integration undefined. Pseudokinase"
+149420,"PDIK1L","PDIK1L","PDLIM1 interacting kinase 1 like","Y","Tdark",NA,NA,3,NA
+5260,"PHKG1","PHKG1","phosphorylase kinase catalytic subunit gamma 1","Y","Tchem",NA,NA,1,NA
+5261,"PHKG2","PHKG2","phosphorylase kinase catalytic subunit gamma 2","Y","Tchem",NA,NA,1,NA
+5297,"PI4KA","PI4KA","phosphatidylinositol 4-kinase alpha","Y","Tchem",NA,"Lipid kinase ",2,NA
+5287,"PIK3C2B","PIK3C2B","phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta","Y","Tchem",NA,"Lipid kinase ",1,NA
+5288,"PIK3C2G","PIK3C2G","phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma","Y","Tchem",NA,"Lipid kinase ",1,NA
+79837,"PIP4K2C","PIP4K2C","phosphatidylinositol-5-phosphate 4-kinase type 2 gamma","Y","Tchem",NA,"Lipid kinase ",1,NA
+8394,"PIP5K1A","PIP5K1A","phosphatidylinositol-4-phosphate 5-kinase type 1 alpha","Y","Tbio",NA,"Lipid kinase ",1,NA
+8395,"PIP5K1B","PIP5K1B","phosphatidylinositol-4-phosphate 5-kinase type 1 beta","Y","Tbio",NA,"Lipid kinase ",2,NA
+23396,"PIP5K1C",NA,"phosphatidylinositol-4-phosphate 5-kinase type 1 gamma",NA,"Tchem",54,"Lipid kinase",NA,"Final member of the PIP5K1 family; No chemical probe only promiscuous inhibitors"
+9088,"PKMYT1","PKMYT1","protein kinase, membrane associated tyrosine/threonine 1","Y","Tchem",NA,NA,2,NA
+29941,"PKN3","PKN3","protein kinase N3","Y","Tchem",NA,NA,2,NA
+139728,"PNCK","PNCK","pregnancy up-regulated nonubiquitous CaM kinase","Y","Tbio",NA,NA,2,NA
+84197,"POMK","POMK","protein-O-mannose kinase","Y","Tdark",NA,"Pseudokinase ",3,NA
+157285,"PRAG1","SGK223","PEAK1 related, kinase-activating pseudokinase 1","N","Tbio",NA,"Pseudokinase ",3,NA
+5567,"PRKACB","PRKACB","protein kinase cAMP-activated catalytic subunit beta","Y","Tchem",NA,NA,2,NA
+5568,"PRKACG","PRKACG","protein kinase cAMP-activated catalytic subunit gamma","Y","Tbio",NA,NA,2,NA
+5588,"PRKCQ","PRKCQ","protein kinase C theta","Y","Tchem",NA,NA,1,NA
+8899,"PRPF4B","PRPF4B","pre-mRNA processing factor 4B","Y","Tchem",NA,NA,2,NA
+5681,"PSKH1","PSKH1","protein serine kinase H1","Y","Tdark",NA,"Pseudokinase ",3,NA
+85481,"PSKH2","PSKH2","protein serine kinase H2","N","Tdark",NA,"Pseudokinase ",3,NA
+54899,"PXK","PXK","PX domain containing serine/threonine kinase like","UK","Tbio",NA,"Pseudokinase ",3,NA
+83732,"RIOK1","RIOK1","RIO kinase 1","Y","Tchem",NA,NA,1,NA
+55781,"RIOK2",NA,"RIO kinase 2",NA,"Tbio",24,NA,NA,"Added to complete RIOK family"
+8780,"RIOK3","RIOK3","RIO kinase 3","Y","Tchem",NA,NA,1,NA
+6041,"RNASEL",NA,"ribonuclease L",NA,"Tchem",133,NA,NA,"Little or no characerization of kinase activity in literature; well charaterized RNase activity; No chemical probe"
+26750,"RPS6KC1","RPS6KC1","ribosomal protein S6 kinase C1","N","Tdark",NA,"Pseudokinase ",3,NA
+83694,"RPS6KL1","RPS6KL1","ribosomal protein S6 kinase like 1","UK","Tdark",NA,"Pseudokinase ",3,NA
+388228,"SBK1",NA,"SH3 domain binding kinase 1",NA,"Tchem",7,NA,NA,"Added to complete SBK family; no chemical probe only promiscuous inhibitors"
+646643,"SBK2","SBK2","SH3 domain binding kinase family member 2","Y","Tdark",NA,NA,3,NA
+100130827,"SBK3","SBK3","SH3 domain binding kinase family member 3","Y","Tchem",NA,NA,2,NA
+57410,"SCYL1","SCYL1","SCY1 like pseudokinase 1","N","Tbio",NA,"Pseudokinase ",3,NA
+55681,"SCYL2","SCYL2","SCY1 like pseudokinase 2","N","Tbio",NA,"Pseudokinase ",3,NA
+57147,"SCYL3","SCYL3","SCY1 like pseudokinase 3","UK","Tdark",NA,"Pseudokinase ",3,NA
+124923,"SGK494","SGK494","-","Y","Tdark",NA,NA,3,NA
+26576,"SRPK3","SRPK3","SRSF protein kinase 3","Y","Tchem",NA,NA,2,NA
+9263,"STK17A","STK17A","serine/threonine kinase 17a","Y","Tchem",NA,NA,1,NA
+9262,"STK17B",NA,"serine/threonine kinase 17b",NA,"Tchem",18,NA,NA,"Added to complete STK17 family; no chemical probe only promiscuous inhibitors"
+8859,"STK19",NA,"serine/threonine kinase 19",NA,"Tbio",24,NA,NA,"Kinome subnetwork integration undefined. "
+6788,"STK3","STK3","serine/threonine kinase 3","Y","Tchem",NA,NA,1,NA
+56164,"STK31","STK31","serine/threonine kinase 31","Y","Tbio",NA,"Pseudokinase ",3,NA
+202374,"STK32A","STK32A","serine/threonine kinase 32A","Y","Tchem",NA,NA,2,NA
+55351,"STK32B","STK32B","serine/threonine kinase 32B","Y","Tchem",NA,NA,2,NA
+282974,"STK32C","STK32C","serine/threonine kinase 32C","Y","Tbio",NA,NA,2,NA
+65975,"STK33","STK33","serine/threonine kinase 33","Y","Tchem",NA,NA,1,NA
+27148,"STK36","STK36","serine/threonine kinase 36","Y","Tbio",NA,NA,1,NA
+23012,"STK38L","STK38L","serine/threonine kinase 38 like","Y","Tchem",NA,NA,2,NA
+83931,"STK40","STK40","serine/threonine kinase 40","N","Tbio",NA,"Pseudokinase ",3,NA
+169436,"STKLD1","STKLD1","serine/threonine kinase like domain containing 1","Y","Tdark",NA,"Pseudokinase ",3,NA
+57551,"TAOK1",NA,"TAO kinase 1",NA,"Tchem",43,NA,NA,"Kinome subnetwork integration undefined. no chemical probe only promiscuous inhibitors"
+9344,"TAOK2",NA,"TAO kinase 2",NA,"Tchem",28,NA,NA,"Kinome subnetwork integration undefined. no chemical probe only promiscuous inhibitors"
+93627,"TBCK","TBCK","TBC1 domain containing kinase","UK","Tbio",NA,"Pseudokinase ",3,NA
+7016,"TESK1","TESK1","testis associated actin remodelling kinase 1","Y","Tbio",NA,NA,2,NA
+10420,"TESK2","TESK2","testis associated actin remodelling kinase 2","Y","Tdark",NA,NA,2,NA
+9874,"TLK1","TLK1","tousled like kinase 1","Y","Tchem",NA,NA,2,NA
+11011,"TLK2","TLK2","tousled like kinase 2","Y","Tchem",NA,NA,2,NA
+112858,"TP53RK","TP53RK","TP53 regulating kinase","Y","Tbio",NA,NA,3,NA
+83942,"TSSK1B","TSSK1B","testis specific serine kinase 1B","Y","Tchem",NA,NA,1,NA
+23617,"TSSK2",NA,"testis specific serine kinase 2",NA,"Tbio",19,NA,NA,"Added to complete TSSK family member"
+81629,"TSSK3","TSSK3","testis specific serine kinase 3","Y","Tbio",NA,NA,1,NA
+283629,"TSSK4","TSSK4","testis specific serine kinase 4","Y","Tbio",NA,NA,2,NA
+83983,"TSSK6","TSSK6","testis specific serine kinase 6","Y","Tchem",NA,NA,2,NA
+84630,"TTBK1","TTBK1","tau tubulin kinase 1","Y","Tchem",NA,NA,2,NA
+146057,"TTBK2","TTBK2","tau tubulin kinase 2","Y","Tbio",NA,NA,2,NA
+54986,"ULK4","ULK4","unc-51 like kinase 4","Y","Tbio",NA,"Pseudokinase ",3,NA
+7444,"VRK2","VRK2","vaccinia related kinase 2","Y","Tbio",NA,NA,2,NA
+51231,"VRK3",NA,"vaccinia related kinase 3",NA,"Tbio",17,"Pseudokinase ",NA,"Added to complete VRK family. Pseudokinase"
+494551,"WEE2","WEE2","WEE1 homolog 2","Y","Tbio",NA,NA,2,NA
+65268,"WNK2","WNK2","WNK lysine deficient protein kinase 2","Y","Tbio",NA,"Pseudokinase ",1,NA
+65267,"WNK3",NA,"WNK lysine deficient protein kinase 3",NA,"Tbio",36,"Pseudokinase",NA,"Added to complete WNK family. Pseudokinase"
