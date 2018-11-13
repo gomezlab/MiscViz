@@ -11,7 +11,7 @@
  {"name": "CSNK2A3", "label": "nan", "desc": "casein kinase 2 alpha 3", "size": 5}, 
  {"name": "DYRK4", "label": "DYRK4", "desc": "dual specificity tyrosine phosphorylation regulated kinase 4", "size": 5}, 
  {"name": "MAP3K21", "label": "MLK4", "desc": "mitogen-activated protein kinase kinase kinase 21", "size": 5}, 
- {"name": "NRBP2", "label": "NRBP2", "desc": "nuclear receptor binding protein 2", "size": 5}, 
+ {"name": "NRBP2", "label": "NRBP2", "desc": "nuclear receptor binding protein 2", "size": 30}, 
  {"name": "NRK", "label": "NRK", "desc": "Nik related kinase", "size": 5}, 
  {"name": "PAN3", "label": "nan", "desc": "PAN3 poly(A) specific ribonuclease subunit", "size": 5}, 
  {"name": "PDIK1L", "label": "CLIK1L", "desc": "PDLIM1 interacting kinase 1 like", "size": 5}, 
