@@ -17,8 +17,6 @@ var diameter = 840,
     color = {"Tdark":"#3792EC", "Tbio":"#389732", "Tchem":"#F0F37F"}; // create a duct if cikirubg
     //d3.scaleOrdinal(d3.schemeCategory20c) // original coloring
 
-console.log(color[0])
-
 var bubble = d3.pack()
     .size([diameter, diameter])
     .padding(1.5);
@@ -42,6 +40,23 @@ d3.json("viz.json", function(error, data) {
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
+  // Create Event Handlers for mouse
+  function handleMouseOver(d) {  // Add interactivity
+        // Use D3 to select element, change color and size
+        console.log("on");
+        d3.select(this).attr({
+          r: d.r * 1.2
+        });
+      }
+
+  function handleMouseOut(d) {
+        // Use D3 to select element, change color back to normal
+        console.log("off");
+        d3.select(this).attr({
+          r: d.r / 1.2
+        });
+      }
+
   node.append("title")
       .text(function(d) { return d.data.className + ": " + format(d.value); });
 
@@ -52,15 +67,25 @@ d3.json("viz.json", function(error, data) {
       .append("svg:circle")
       .attr("r", function(d) { return d.r; })
       .style("fill", function(d) {
-        console.log(d.data.packageName);
         return color[d.data.packageName];
+      })
+      .style("stroke", "#000")
+      .style("stroke-width", .2)
+      .on("mouseover", function(d,i) {
+        d3.select(this)
+          .style("transform", "scale(1.2,1.2)")
+          .style("stroke-width", 2);
+      }).on("mouseout", function(d,i) {
+        d3.select(this)
+          .style("transform", "scale(1.0,1.0)")
+          .style("stroke-width", .2);
       });
 
   node.append("text")
       .attr("dy", ".3em")
       .style("text-anchor", "middle")
       .text(function(d) { return d.data.className.substring(0, d.r / 3); });
-});
+    });
 
 // Returns a flattened hierarchy containing all leaf nodes under the root.
 function classes(root) {
