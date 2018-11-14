@@ -28,9 +28,6 @@ d3.json("viz.json", function(error, data) {
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
-  node.append("title")
-      .text(function(d) { return d.data.className + ": " + format(d.value); });
-
   node.append("a")
       .attr("xlink:href", function(d){
         return "http://darkkinome.org/kinase/"+d.data.className.substring(0, d.r / 3);
@@ -54,7 +51,13 @@ d3.json("viz.json", function(error, data) {
       .style("text-anchor", "middle")
       .style("font-family", "verdana")
       .style("font-size", function (d) { return (d.r/5+5).toString()+"px" } )
-      .text(function(d) { return d.data.className.substring(0, d.r / 3); });
+      .text(function(d) { return d.data.className.substring(0, d.r / 3); })
+      .style("pointer-events", "none");
+
+  node.append("title")
+      .text(function(d) { return d.data.className + ": " + format(d.value); })
+      .style("pointer-events", "none");
+
 
   node.on("mouseover", function (d) {
         d3.select(this).select("text")
