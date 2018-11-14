@@ -52,18 +52,20 @@ d3.json("viz.json", function(error, data) {
   node.append("text")
       .attr("dy", ".3em")
       .style("text-anchor", "middle")
+      .style("font-family", "verdana")
+      .style("font-size", function (d) { return (d.r/5+5).toString()+"px" } )
       .text(function(d) { return d.data.className.substring(0, d.r / 3); });
 
   node.on("mouseover", function (d) {
         d3.select(this).select("text")
-            .style("font-size", "15px");
+            .style("font-size", function (d) { return ((d.r/5+5)*1.2).toString()+"px" } );
         d3.select(this).select("a")
             .attr("transform", "scale(1.2,1.2)");
         d3.select(this).moveToFront() });
 
   node.on("mouseout", function (d) {
         d3.select(this).select("text")
-            .style("font-size", "10px");
+            .style("font-size", function (d) { return (d.r/5+5).toString()+"px" });
         d3.select(this).select("a")
             .attr("transform", "scale(1.0,1.0)"); });
 });
