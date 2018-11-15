@@ -33,12 +33,12 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": ["#6A36D5", "#9574DA", "#2E1661", "#9C98A4"]
+      "value": ["#6A36D5", "#000000", "#0C0619", "#9C98A4"]
     },
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": .05,
+        "width": .1,
         "color": "#000000"
       },
       "polygon": {
@@ -129,11 +129,9 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 var count_particles, update;
-document.body.appendChild(stats.domElement);
 count_particles = document.querySelector('.js-count-particles');
 update = function() {
   if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
   }
   requestAnimationFrame(update);
 };
